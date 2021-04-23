@@ -12,8 +12,8 @@ My solutions for ["Project Euler"](https://projecteuler.net/)
 | 05 | [Smallest multiple](https://projecteuler.net/problem=5)                      | :white_check_mark: | :white_check_mark: |    |   |   |
 | 06 | [Sum square difference](https://projecteuler.net/problem=6)                  | :white_check_mark: |   |    |   |   |
 | 07 | [10001st prime](https://projecteuler.net/problem=7)                          |  | :white_check_mark: |    |   |   | 
-| 08 | [Largest product in a series](https://projecteuler.net/problem=8)            |  |    |    |   |   |
-| 09 | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            |  |    |    |   |   |
+| 08 | [Largest product in a series](https://projecteuler.net/problem=8)            |  | :white_check_mark: |    |   |   |
+| 09 | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            |  | :white_check_mark: |    |   |   |
 | 10 | [Summation of primes](https://projecteuler.net/problem=10)                   |  |    |    |   |   |
 | 11 | [Largest product in a grid](https://projecteuler.net/problem=11)             |  |    |    |   |   |
 | 12 | [Highly divisible triangular number](https://projecteuler.net/problem=12)    |  |    |    |   |   |
