@@ -16,11 +16,11 @@ void main()
 */
 
 	int sumOfSquares = 0; //the sum of the numbers in squars
-	int SquareOfSum = 0; //the square of the the sum form 1 to 100 (includ)
+	int SquareOfSum = 0;  //the square of the the sum form 1 to 100 (includ)
 
 	for (int i = 1; i < 101; i++)
 	{
-		sumOfSquares += i*i;
+		sumOfSquares += i * i;
 		SquareOfSum += i;
 	}
 	SquareOfSum = SquareOfSum * SquareOfSum;

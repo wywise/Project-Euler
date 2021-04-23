@@ -22,13 +22,13 @@ void main()
 		if (b % 2 == 0)
 			sum += b;
 
-		c = a+b;
+		c = a + b;
 		a = b;
 		b = c;
 	}
 	cout << sum << endl;
 
-//		for not exiting the CMD
+	//		for not exiting the CMD
 	int j;
 	cin >> j;
 }
