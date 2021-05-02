@@ -1,6 +1,6 @@
 # formatting the input properly
 
-input_string = '''
+input_string = """
 73167176531330624919225119674426574742355349194934
 96983520312774506326239578318016984801869478851843
 85861560789112949495459501737958331952853208805511
@@ -20,15 +20,15 @@ input_string = '''
 07198403850962455444362981230987879927244284909188
 84580156166097919133875499200524063689912560717606
 05886116467109405077541002256983155200055935729725
-71636269561882670428252483600823257530420752963450'''
+71636269561882670428252483600823257530420752963450"""
 input_string = input_string.split("\n")
 input_string = "".join(input_string)
 
 
-def mul(x):         # to multiply the elements of a list
+def mul(x):  # to multiply the elements of a list
     result = 1
     for i in x:
-        result = result*i
+        result = result * i
     return result
 
 
@@ -38,25 +38,25 @@ newnum = 0
 
 
 flag = False
-for i in range(len(input_string)):   # main Loop
+for i in range(len(input_string)):  # main Loop
 
-    for j in range(13):         # Taking next 12 numbers { current +12} =13
-        if(i+12 < len(input_string)):  # making sure No outof bound index happens
+    for j in range(13):  # Taking next 12 numbers { current +12} =13
+        if i + 12 < len(input_string):  # making sure No outof bound index happens
 
-            list13.append(int(input_string[i+j]))    # generating  pairs of 13
+            list13.append(int(input_string[i + j]))  # generating  pairs of 13
 
         else:
-            flag = True        # break the main loop if index is about to go out of bound
-            break            # break the inner loop if index is about to go out of bound
+            flag = True  # break the main loop if index is about to go out of bound
+            break  # break the inner loop if index is about to go out of bound
 
     # print(list13)           # for getting the 13 pair list { for debug }
 
-    if(not(0 in list13)):    # if pair contains a 0 then skip it
+    if not (0 in list13):  # if pair contains a 0 then skip it
         newnum = mul(list13)
-        if(newnum > maxnum):   # check if the result you got is bigger
+        if newnum > maxnum:  # check if the result you got is bigger
             maxnum = newnum
 
-    list13.clear()          # empty the list for fresh list to form
-    if(flag):
-        break                # Main loop breaks here
-print(maxnum)                # print Result
+    list13.clear()  # empty the list for fresh list to form
+    if flag:
+        break  # Main loop breaks here
+print(maxnum)  # print Result
