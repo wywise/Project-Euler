@@ -33,7 +33,7 @@ def __is_palindrome(num):  # Returns if the numer is palindrom or not
         rev = (rev*10) + (num % 10)
         num = int(num/10)
 
-    return rev == temp  # Returning if the number is equal to its reverse or not
+    return rev == temp  # Returk,ning if the number is equal to its reverse or not
 
 
 # Function to check if the palindrome number has two 3 digit factors or not

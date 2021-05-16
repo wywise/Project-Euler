@@ -5,13 +5,11 @@
  '''
 
 
-
-
 counter = 0
 num = 1
 
-for counter in range (10001):
-    num += 1 
+for counter in range(10001):
+    num += 1
     for i in range(2, num):
         if (num % i) == 0:
             # print(num, "is not a prime number")
@@ -19,7 +17,7 @@ for counter in range (10001):
             break
         else:
             # print(num, "is a prime number")
-            counter +=1
-            print (counter)
+            counter += 1
+            print(counter)
 
-print (num)
+print(num)
